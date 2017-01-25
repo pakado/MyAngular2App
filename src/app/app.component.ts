@@ -5,7 +5,8 @@ import { PaymentAppComponent } from './payment-app/payment-app.component';
   selector: 'app-root',
   template: `
     <div>{{title}}</div>
-    <app-payment-app></app-payment-app>  
+    <hr>
+    <app-payment-app></app-payment-app>
   `,
   styleUrls: ['./app.component.css']
 })

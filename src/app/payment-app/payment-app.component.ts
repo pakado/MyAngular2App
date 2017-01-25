@@ -5,6 +5,7 @@ import { PaymentListComponent } from './payment-list/payment-list.component';
   selector: 'app-payment-app',
   template: `
     <div>payment-app works!</div>
+    <hr>
     <app-payment-list></app-payment-list>
   `,
   styleUrls: ['./payment-app.component.css']
