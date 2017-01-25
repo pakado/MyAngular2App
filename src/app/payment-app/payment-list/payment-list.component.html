@@ -1,0 +1,28 @@
+<div>
+  <p>
+    payment-list works!
+  </p>
+
+  <div>
+    <table>
+      <thead>
+      <th>Payment Id</th>
+      <th>Payment Name</th>
+      <th>How Mach To Pay</th>
+      <th>description</th>
+      <th>Date</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let payment of paymentList">
+          <td>{{payment.paymentId}}</td>
+          <td>{{payment.paymentName}}</td>
+          <td>{{payment.productCode}}</td>
+          <td>{{payment.howMachToPay}}</td>
+          <td>{{payment.description}}</td>
+          <td>{{payment.date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
